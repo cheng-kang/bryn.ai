@@ -1,4 +1,4 @@
-## Bryn AI
+## <img src="public/icons/icon320.png" width="28" height="28" /> Bryn AI
 
 An on-device, privacy-first browser assistant that understands why you browse, groups activity into Intents, and proactively suggests next steps. Built on a Collect → Queue → Analyze model so UI stays responsive while AI runs in the background.
 
