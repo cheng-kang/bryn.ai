@@ -4,7 +4,7 @@ An on-device, privacy-first browser assistant that understands why you browse, g
 
 ### Key features
 
-> Jump to [screenshots](#screenshots).
+> Jump to [screenshots](#screenshots). Or watch a low-quality [demo video](https://www.youtube.com/watch?v=AsKK5WkaNF0) 😅.
 
 - **Intent understanding**: Groups related pages into human-readable "Intents" and refreshes them over time.
 - **Proactive suggestions**: Surfaces actionable next steps (resume, compare, explore) based on intent state.
