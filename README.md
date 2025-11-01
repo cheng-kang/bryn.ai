@@ -4,6 +4,8 @@ An on-device, privacy-first browser assistant that understands why you browse, g
 
 ### Key features
 
+> Jump to [screenshots](#screenshots).
+
 - **Intent understanding**: Groups related pages into human-readable "Intents" and refreshes them over time.
 - **Proactive suggestions**: Surfaces actionable next steps (resume, compare, explore) based on intent state.
 - **Asynchronous AI**: Background queue with prioritization, dependencies, and retries.
@@ -52,3 +54,63 @@ npm run build
 - 08 — UI Guide: `docs/08-ui-guide.md`
 - 09 — Troubleshooting: `docs/09-troubleshooting.md`
 - 10 — Contributing: `docs/10-contributing.md`
+
+### Screenshots
+
+#### Main Hub
+
+<img src="docs/screenshots/screenshot-1.png" height="500" />
+
+#### Processing Queue Tab
+
+<div>
+<img src="docs/screenshots/screenshot-2.png" height="500" />
+
+<img src="docs/screenshots/screenshot-3.png" height="500" />
+</div>
+
+#### Backstage Hub
+
+<div>
+<img src="docs/screenshots/screenshot-4.png" height="500" />
+
+<img src="docs/screenshots/screenshot-5.png" height="500" />
+
+<img src="docs/screenshots/screenshot-6.png" height="500" />
+</div>
+
+#### Detected Intents & Intent Details
+
+<div>
+<img src="docs/screenshots/screenshot-10.png" height="500" />
+
+<img src="docs/screenshots/screenshot-16.png" height="500" />
+
+<img src="docs/screenshots/screenshot-17.png" height="500" />
+
+<img src="docs/screenshots/screenshot-18.png" height="500" />
+</div>
+
+#### Page History & Page Details
+
+<div>
+<img src="docs/screenshots/screenshot-11.png" height="500" />
+
+<img src="docs/screenshots/screenshot-12.png" height="500" />
+
+<img src="docs/screenshots/screenshot-13.png" height="500" />
+
+<img src="docs/screenshots/screenshot-14.png" height="500" />
+
+<img src="docs/screenshots/screenshot-15.png" height="500" />
+</div>
+
+#### Developer Hub & Scenario Runner Tab
+
+<div>
+<img src="docs/screenshots/screenshot-7.png" height="500" />
+  
+<img src="docs/screenshots/screenshot-8.png" height="500" />
+
+<img src="docs/screenshots/screenshot-9.png" height="500" />
+</div>
