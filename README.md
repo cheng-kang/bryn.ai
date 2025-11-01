@@ -61,14 +61,6 @@ npm run build
 
 <img src="docs/screenshots/screenshot-1.png" height="500" />
 
-#### Processing Queue Tab
-
-<div>
-<img src="docs/screenshots/screenshot-2.png" height="500" />
-
-<img src="docs/screenshots/screenshot-3.png" height="500" />
-</div>
-
 #### Backstage Hub
 
 <div>
@@ -103,6 +95,14 @@ npm run build
 <img src="docs/screenshots/screenshot-14.png" height="500" />
 
 <img src="docs/screenshots/screenshot-15.png" height="500" />
+</div>
+
+#### Processing Queue Tab
+
+<div>
+<img src="docs/screenshots/screenshot-2.png" height="500" />
+
+<img src="docs/screenshots/screenshot-3.png" height="500" />
 </div>
 
 #### Developer Hub & Scenario Runner Tab
