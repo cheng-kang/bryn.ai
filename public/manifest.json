@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "name": "Bryn AI - Proactive Browser Assistant",
+  "version": "1.0.0",
+  "description": "100% private AI assistant that tracks your research and sends smart nudges",
+  "minimum_chrome_version": "138",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting",
+    "history",
+    "unlimitedStorage",
+    "sidePanel",
+    "alarms"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "src/background/service-worker.ts",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content-scripts/page-tracker.ts"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Open Bryn AI",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "trial_tokens": [
+    "ArmyeuyxbZbhYzycsp2aCyl2I28MNRLDK/OYdG8CIUpJfvd+dL7Ne7px9PX8ntoBObP2JP+HVV2eNy2f0W3IXwcAAAB7eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vZG1iZ21jY2NoZW9uYnBkb2lhZXBjYmtqbWliY29vY2MiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDB9",
+    "Ao//w0zui4GbGOpTATd+VH/x5863sdAiGAkuzCB3/juw1Yx2a+m7U82bz0C/WjK1McZZl5s2J8tHdQbtM2/VzwgAAABxeyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vZG1iZ21jY2NoZW9uYnBkb2lhZXBjYmtqbWliY29vY2MiLCJmZWF0dXJlIjoiQUlQcm9vZnJlYWRlckFQSSIsImV4cGlyeSI6MTc3OTE0ODgwMH0=",
+    "AhJ5yUzZCwOK3vdiusbonEalbfSMkW7sFCGtNz28JReiBeef/UcZmunxM82Y+VLbzsITOr3PRwxW9ckuaZXwjwAAAABueyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vZG1iZ21jY2NoZW9uYnBkb2lhZXBjYmtqbWliY29vY2MiLCJmZWF0dXJlIjoiQUlSZXdyaXRlckFQSSIsImV4cGlyeSI6MTc2OTQ3MjAwMH0=",
+    "AnDqg46GXa1x7WKEBug6jn7GZoflV7l9LqgYYAYaV2tCGOW9sagxsfnENU/ywkhnici51uFPrPMJbHEfRKQbYQYAAABseyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vZG1iZ21jY2NoZW9uYnBkb2lhZXBjYmtqbWliY29vY2MiLCJmZWF0dXJlIjoiQUlXcml0ZXJBUEkiLCJleHBpcnkiOjE3Njk0NzIwMDB9"
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmwYgL3ZXH4gtdlpQjox3CSls2joo4jM2Xl7Hm2d9jR4/9YXu9CQ6Obs44shpEhvn3luvFw027pGAOVbaXZVna4DhYPmmjye7pENShsadYu98pShyBfWe4JixDFjWTB5Wo0Rx21G4q56FSf85Movy6GYmKIRabO4NegN6+fApqPZAC65RhddqpnUER429ApSLVGOh8pLCmlPezS5oc/FUGR0d7GfAI3+Z3gK1vUacVZ9BhA3QailTFBgNp8OwossX1xlVmSXtOBd9LEhgdbPI7P0j1vdcCdZSmrLXTpR87+N809D47QwtHjF2whmSTZdsIyPFPlGBjLkfmes2AJ3BTQIDAQAB"
+}
